@@ -1,2 +1,2 @@
-#asyncForEach
-An asynchronous implementation of forEach.
+# asyncForEach
+An asynchronous implementation of forEach using async/await.
