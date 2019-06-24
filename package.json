@@ -2,7 +2,7 @@
   "name": "async-for-each",
   "version": "0.1.0",
   "description": "An asynchronous implementation of forEach.",
-  "main": "index.js",
+  "main": "asyncForEach.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
