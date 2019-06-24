@@ -1,5 +1,5 @@
 {
-  "name": "async-for-each",
+  "name": "simple-async-foreach",
   "version": "0.1.1",
   "description": "An asynchronous implementation of forEach.",
   "main": "asyncForEach.js",
