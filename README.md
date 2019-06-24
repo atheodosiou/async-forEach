@@ -1,2 +1,44 @@
 # asyncForEach
-An asynchronous implementation of forEach using async/await.
+### An asynchronous implementation of forEach using async/await.
+
+#### Install
+
+npm i simple-async-foreach --save
+
+#### Usage
+Example without a delay!
+
+const { asyncForEach } = require('simple-async-foreach')
+
+simpleArray = ['a','b','c','d'];
+
+async function startLoop(){
+    console.log('Looping between items of simpleArray...');
+
+    await asyncForEach(simpleArray,(item,index,array)=>{
+        console.log(index,item,array);
+    });
+    
+    console.log('Done!');
+}
+
+startLoop();
+
+
+Example with a delay of 300ms!
+
+const { asyncForEach } = require('simple-async-foreach')
+
+simpleArray = ['a','b','c','d'];
+
+async function startLoop(){
+    console.log('Looping between items of simpleArray...');
+
+    await asyncForEach(simpleArray,(item,index,array)=>{
+        console.log(index,item,array);
+    },300);
+    
+    console.log('Done!');
+}
+
+startLoop();
