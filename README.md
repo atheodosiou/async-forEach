@@ -42,3 +42,12 @@ async function startLoop(){
 }
 
 startLoop();
+
+#### Results
+
+Looping between items of simpleArray...
+0 'a' [ 'a', 'b', 'c', 'd' ]
+1 'b' [ 'a', 'b', 'c', 'd' ]
+2 'c' [ 'a', 'b', 'c', 'd' ]
+3 'd' [ 'a', 'b', 'c', 'd' ]
+Done!
