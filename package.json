@@ -1,6 +1,6 @@
 {
   "name": "async-for-each",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "An asynchronous implementation of forEach.",
   "main": "asyncForEach.js",
   "scripts": {
