@@ -5,6 +5,8 @@
 
 npm i simple-async-foreach --save
 
+![simple-async-foreach](https://user-images.githubusercontent.com/20326000/60080261-38e4eb00-9738-11e9-86f2-1c536f19fc69.gif)
+
 #### Usage
 
 ##### Example without a delay!
