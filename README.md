@@ -8,7 +8,7 @@ npm i simple-async-foreach --save
 #### Usage
 
 ##### Example without a delay!
-```
+```javascript
 const { asyncForEach } = require('simple-async-foreach')
 
 simpleArray = ['a','b','c','d'];
@@ -26,7 +26,7 @@ startLoop();
 
 ##### Example with a delay of 300ms!
 
-```
+```javascript
 const { asyncForEach } = require('simple-async-foreach')
 
 simpleArray = ['a','b','c','d'];
@@ -43,7 +43,7 @@ startLoop();
 ```
 
 #### Results
-```
+```javascript
 Looping between items of simpleArray...
 0 'a' [ 'a', 'b', 'c', 'd' ]
 1 'b' [ 'a', 'b', 'c', 'd' ]
